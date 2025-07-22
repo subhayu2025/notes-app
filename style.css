@@ -50,7 +50,7 @@ textarea {
     resize: none;
 }
 
-button {
+#btn1 {
     background-color: #007bff;
     color: white;
     border: none;
@@ -60,7 +60,7 @@ button {
     font-size: 12px;
 }
 
-button :hover {
+#btn1 :hover {
     background-color: #0056b3;
 }
 
@@ -80,10 +80,37 @@ button :hover {
     font-size: 16px;
 }
 
+#btn2 {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 275px 10px 275px;
+    cursor: pointer;
+    font-size: 12px;   
+}
+
+#btn2 :hover {
+    background-color: #0056b3;
+}
+
 .note {
     background-color: #fafafa;
     padding: 15px;
     margin: 10px 0;
     border-left: 5px solid #007bff;
     border-radius: 8px;
+}
+
+.note-card {
+    background-color: #fff9c4;
+    border-left: 5px solid #ffc107;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.btn-group {
+    margin-top: 8px;
 }
